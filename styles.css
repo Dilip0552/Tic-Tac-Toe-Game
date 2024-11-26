@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient(to right, rgb(58, 163, 255), rgb(49, 49, 255));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(0, 200, 255);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 36px;
+    margin-top:2px;
+    margin-bottom:8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr{
+    color: aliceblue;
+    text-decoration: none;
+    width:100%;
+    border:none;
+    height:2px;
+    color:aquamarine;
+    background-color: rgb(16, 203, 255);
+}
+
+#container{
+    background-color: rgb(16, 203, 255);
+    border: grey 2px solid;
+    height: auto;
+    width:550px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding:25px
+}
+
+.box{
+    background-color: rgb(16, 203, 255);
+    border:cyan 2px solid;
+    border-radius: 7px;
+    height:160px;
+    width:174px;
+    display: inline-block;
+    cursor: pointer;
+    padding:0;
+    margin:0;
+}
+
+
+#winner{
+    background-image: linear-gradient(to right, rgb(255, 61, 31), rgb(197, 255, 49));
+    border: 2px grey solid;
+    border-radius: 15px;
+    position:fixed;
+    margin-top:230px;
+    padding:70px 30px 70px 30px;
+    width: 50%;
+    text-align: center;    
+}
+
+#winner p{
+    font-size: 56px;
+    text-align: center;
+    font-weight: 600;
+}
+
+button{
+    border-radius: 24px;
+    padding:7px 12px 7px 12px;
+    font-size: 24px;
+    border: 4px rgb(195, 255, 0) solid;
+    background-color:#a5ff1f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+button:active{
+    border-radius: 24px;
+    padding:7px 12px 7px 12px;
+    font-size: 24px;
+    border: 4px rgb(195, 255, 0) solid;
+    background-color:#d9ff00;
+    text-decoration: none; 
+}
+
+
